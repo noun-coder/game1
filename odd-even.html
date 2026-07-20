@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Odd-Even Game</title>
+    <link rel="stylesheet" href="odd-even.css">
+</head>
+
+<body>
+    <h1>Odd-Even Game</h1>
+    <div class="row">User coins:<span id="userCoins" class="count">0</span></div>
+    <div class="row">Computer coins:<span id="compCoins" class="count">0</span></div>
+    <div class="row small"><span id="pickedNumber"></span></div>
+    <div class="row">Picker: <span id="picker">Computer</span></div>
+
+    <div class="row" id="guessControls">
+        <button id="oddBtn">Guess Odd</button>
+        <button id="evenBtn">Guess Even</button>
+    </div>
+
+    <div class="row" id="userPickControls">
+        Pick a number: <input id="pickInput" type="number" min="1" value="1" /> 
+        <button id="pickBtn">Pick</button>
+    </div>
+
+    <div class="row">
+        <button id="nextBtn">Next Round (computer picks)</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <div id="message" class="row"></div>
+
+    <script src="odd-even.js"></script>
+
+</body>
+</html>
+

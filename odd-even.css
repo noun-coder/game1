@@ -1,0 +1,8 @@
+body{font-family:Segoe UI,Arial,sans-serif;padding:20px}
+.row{margin:8px 0}
+.count{font-weight:700;margin-left:8px}
+button{padding:8px 12px;margin-right:8px}
+#message{margin-top:12px}
+.small{font: size 0.8em;color:#545454}
+#userPickControls{display:none}
+#pickInput{width:60px}
